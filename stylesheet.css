@@ -1,23 +1,31 @@
-/* Styles go here */
 
-#info-block section {
-    margin-top: 25;
+
+/* body {
+    background-color: black;
+} */
+
+.title-plate {
     border: 5px dashed black;
-    width: 100%;
-    height: 900;
+    height: 25%;
+    width: 25%;
+    margin: 25 0 0 0;
 }
 
-.file-marker > div {
-    padding: 0 3px;
-    height: 100px;
-    margin-top: -25px;
-    
+.title-plate:hover {
+    border: 5px dashed black;
+    height: 25%;
+    width: 50%;
+    margin: 25 0 0 0;
 }
 
-.box-title {
-    background: white none repeat scroll 0 0;
-    display: inline-block;
-    padding: 0 2px;
-    margin-left: 25px;
-    font-size: 48;
+.title-marker{
+    background-color: white;
+    margin: -10px 0 0 0;
+    padding: 0px 0 0 -10;
+    width: 150px;
+    text-align: center;
+}
+
+.icon {
+    margin-top: 25px;
 }
